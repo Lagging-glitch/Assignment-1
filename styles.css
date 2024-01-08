@@ -1,0 +1,27 @@
+/*common styles */
+    
+/*header styles*/
+header {
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Banner-Image.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    margin:0 auto;
+}
+.new-year{
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    
+    margin-bottom: 0;
+}
+.celebration {
+    font-size: 72px;
+    font-weight: 900;
+    
+    margin-top: 16px;
+}
