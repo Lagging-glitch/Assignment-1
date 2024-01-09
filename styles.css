@@ -127,3 +127,43 @@ header {
     font-weight: 700;
     border: 0;
 }
+/*portfolio section*/
+.portfolio {
+    width: 1600px;
+    height: 7335px;
+    margin:0 auto;
+    text-align: left;
+    padding-left: 140px;
+}
+.portfolio-small-header {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.portfolio-big-header {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.portfolio-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.img-container {
+    justify-content: space-around;
+    padding: 50px;
+}
+.item {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
