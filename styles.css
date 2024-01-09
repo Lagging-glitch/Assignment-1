@@ -225,4 +225,44 @@ input::placeholder {
     font-weight: 600;
     border: 0;
 }
-
+/*footer section*/
+footer {
+    background-color: #070211;
+    width: 1680px;
+    height: 609px;
+}
+.address, .phone, .web{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: block;
+}
+.address {
+    padding-top: 120px;
+    padding-left: 140px;
+}
+.social {
+    margin:0 auto;
+    
+    justify-content: center;
+}
+.phone, .web {
+    text-align: right;
+    padding-right: 275px;
+}
+.right{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+.unsubscribe {
+    background:local;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
