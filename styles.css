@@ -129,8 +129,6 @@ header {
 }
 /*portfolio section*/
 .portfolio {
-    width: 1600px;
-    height: 7335px;
     margin:0 auto;
     text-align: left;
     padding-left: 140px;
@@ -167,3 +165,64 @@ header {
     height: 450px;
     border-radius: 16px;
 }
+/*newsletter section*/
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin:0 auto;
+}
+.img-letter {
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+}
+.subscribe {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.newsletter-info {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    
+    height: 72px;
+    margin:0 auto;
+}
+input {
+    width: 648px;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.btn-subscribe {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+}
+
